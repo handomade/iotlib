@@ -1,0 +1,242 @@
+S1	(
+M2	C
+M3	C
+M4	R
+M5	I
+M6	R
+M7	I
+M8	N
+)
+V9	C	#15
+V10	S1	#15
+V11	I	#2
+Xiotgti	I	F	E
+P12	R
+{
+V13	C	#2
+A14	V13
+A15	N
+A16	I
+	Xoutp	#88	pI	#224	CI	pC	cC	F2
+	Xoutp	#88	pI	#1	CI	pC	cC	F2
+	Xoutp	#88	pI	#83	CI	pC	cC	F2
+	Xoutp	#88	pI	#192	CI	pC	cC	F2
+	A15	Xstrlen	P12	pR	cN	F1	:N
+	Xoutp	#88	pI	A15	CN	pC	cC	F2
+	A16	#0	:I
+	d
+	j	L17	A16	NI	A15	<N	n
+	Xoutp	#88	pI	P12	@	A16	RI	#C	*R	'	pC	cC	F2
+L18
+	A16	#1	:+I
+	b
+L17
+	Xoutp	#88	pI	#0	CI	pC	cC	F2
+	A14	#0	RI	#C	*R	'	Xinp	#88	pI	cC	F1	:C
+	Xoutp	#88	pI	#224	CI	pC	cC	F2
+	Xoutp	#88	pI	#1	CI	pC	cC	F2
+	Xoutp	#88	pI	#1	CI	pC	cC	F2
+	Xoutp	#88	pI	#128	CI	pC	cC	F2
+	A14	#0	RI	#C	*R	'	Xinp	#88	pI	cC	F1	:C
+	A14	#0	RI	#C	*R	'	Xinp	#88	pI	cC	F1	:C
+	A14	#1	RI	#C	*R	'	Xinp	#88	pI	cC	F1	:C
+	yI	A14	a	@
+}
+Xiotgts	I	F	E
+P19	R
+P20	R
+{
+A21	N
+A22	I
+	Xoutp	#88	pI	#224	CI	pC	cC	F2
+	Xoutp	#88	pI	#1	CI	pC	cC	F2
+	Xoutp	#88	pI	#83	CI	pC	cC	F2
+	Xoutp	#88	pI	#192	CI	pC	cC	F2
+	A21	Xstrlen	P19	pR	cN	F1	:N
+	Xoutp	#88	pI	A21	CN	pC	cC	F2
+	A22	#0	:I
+	d
+	j	L23	A22	NI	A21	<N	n
+	Xoutp	#88	pI	P19	@	A22	RI	#C	*R	'	pC	cC	F2
+L24
+	A22	#1	:+I
+	b
+L23
+	Xoutp	#88	pI	#0	CI	pC	cC	F2
+	P20	@	#0	RI	#C	*R	'	Xinp	#88	pI	cC	F1	:C
+	Xoutp	#88	pI	#224	CI	pC	cC	F2
+	Xoutp	#88	pI	#1	CI	pC	cC	F2
+	Xoutp	#88	pI	#3	CI	pC	cC	F2
+	Xoutp	#88	pI	#128	CI	pC	cC	F2
+	A21	Xinp	#88	pI	cC	F1	NC	:N
+	A22	#0	:I
+	d
+	j	L25	A22	NI	A21	<N	n
+	P20	@	A22	RI	#C	*R	'	Xinp	#88	pI	cC	F1	:C
+L26
+	A22	#1	:+I
+	b
+L25
+	P20	@	A21	RN	#C	*R	'	#0	CI	:C
+	yI	A21	IN
+}
+Xiotpti	I	F	E
+P27	R
+P28	I
+{
+A29	N
+A30	I
+A31	I
+	Xoutp	#88	pI	#224	CI	pC	cC	F2
+	Xoutp	#88	pI	#1	CI	pC	cC	F2
+	Xoutp	#88	pI	#83	CI	pC	cC	F2
+	Xoutp	#88	pI	#192	CI	pC	cC	F2
+	A29	Xstrlen	P27	pR	cN	F1	:N
+	Xoutp	#88	pI	A29	CN	pC	cC	F2
+	A30	#0	:I
+	d
+	j	L32	A30	NI	A29	<N	n
+	Xoutp	#88	pI	P27	@	pC	cC	F2
+	P27	#C	;+R
+L33
+	A30	#1	:+I
+	b
+L32
+	Xoutp	#88	pI	#0	CI	pC	cC	F2
+	A31	Xinp	#88	pI	cC	F1	IC	:I
+	Xoutp	#88	pI	#224	CI	pC	cC	F2
+	Xoutp	#88	pI	#1	CI	pC	cC	F2
+	Xoutp	#88	pI	#65	CI	pC	cC	F2
+	Xoutp	#88	pI	#192	CI	pC	cC	F2
+	Xoutp	#88	pI	#2	CI	pC	cC	F2
+	Xoutp	#88	pI	P28	#255	&I	CI	pC	cC	F2
+	Xoutp	#88	pI	P28	#65280	IN	&I	#8	rI	CI	pC	cC	F2
+	yI	#0
+}
+Xiotpts	I	F	E
+P34	R
+P35	R
+{
+A36	N
+A37	I
+A38	I
+	Xoutp	#88	pI	#224	CI	pC	cC	F2
+	Xoutp	#88	pI	#1	CI	pC	cC	F2
+	Xoutp	#88	pI	#83	CI	pC	cC	F2
+	Xoutp	#88	pI	#192	CI	pC	cC	F2
+	A36	Xstrlen	P34	pR	cN	F1	:N
+	Xoutp	#88	pI	A36	CN	pC	cC	F2
+	A37	#0	:I
+	d
+	j	L39	A37	NI	A36	<N	n
+	Xoutp	#88	pI	P34	@	pC	cC	F2
+	P34	#C	;+R
+L40
+	A37	#1	:+I
+	b
+L39
+	Xoutp	#88	pI	#0	CI	pC	cC	F2
+	A38	Xinp	#88	pI	cC	F1	IC	:I
+	Xoutp	#88	pI	#224	CI	pC	cC	F2
+	Xoutp	#88	pI	#1	CI	pC	cC	F2
+	Xoutp	#88	pI	#67	CI	pC	cC	F2
+	Xoutp	#88	pI	#192	CI	pC	cC	F2
+	A36	Xstrlen	P35	pR	cN	F1	:N
+	Xoutp	#88	pI	A36	CN	pC	cC	F2
+	A37	#0	:I
+	d
+	j	L41	A37	NI	A36	<N	n
+	Xoutp	#88	pI	P35	@	pC	cC	F2
+	P35	#C	;+R
+L42
+	A37	#1	:+I
+	b
+L41
+	Xoutp	#88	pI	#0	CI	pC	cC	F2
+	A38	Xinp	#88	pI	cC	F1	IC	:I
+}
+Xiotfdi	I	F	E
+P43	R
+{
+A44	N
+A45	I
+V46	C	#2
+A47	V46
+	Xoutp	#88	pI	#224	CI	pC	cC	F2
+	Xoutp	#88	pI	#1	CI	pC	cC	F2
+	Xoutp	#88	pI	#83	CI	pC	cC	F2
+	Xoutp	#88	pI	#192	CI	pC	cC	F2
+	A44	Xstrlen	P43	pR	cN	F1	:N
+	Xoutp	#88	pI	A44	CN	pC	cC	F2
+	A45	#0	:I
+	d
+	j	L48	A45	NI	A44	<N	n
+	Xoutp	#88	pI	P43	@	pC	cC	F2
+	P43	#C	;+R
+L49
+	A45	#1	:+I
+	b
+L48
+	Xoutp	#88	pI	#0	CI	pC	cC	F2
+	A47	#0	RI	#C	*R	'	Xinp	#88	pI	cC	F1	:C
+	Xoutp	#88	pI	#224	CI	pC	cC	F2
+	Xoutp	#88	pI	#1	CI	pC	cC	F2
+	Xoutp	#88	pI	#17	CI	pC	cC	F2
+	Xoutp	#88	pI	#128	CI	pC	cC	F2
+	A47	#0	RI	#C	*R	'	Xinp	#88	pI	cC	F1	:C
+	A47	#0	RI	#C	*R	'	Xinp	#88	pI	cC	F1	:C
+	A47	#1	RI	#C	*R	'	Xinp	#88	pI	cC	F1	:C
+	yI	A47	a	@
+}
+Xiotfds	I	F	E
+P50	R
+P51	R
+{
+A52	N
+A53	I
+A54	I
+A55	I
+A56	I
+	A56	Xiotfdi	P50	pR	cI	F1	:I
+	Xoutp	#88	pI	#224	CI	pC	cC	F2
+	Xoutp	#88	pI	#1	CI	pC	cC	F2
+	Xoutp	#88	pI	#83	CI	pC	cC	F2
+	Xoutp	#88	pI	#192	CI	pC	cC	F2
+	A52	Xstrlen	P50	pR	cN	F1	:N
+	Xoutp	#88	pI	A52	CN	pC	cC	F2
+	A53	#0	:I
+	d
+	j	L57	A53	NI	A52	<N	n
+	Xoutp	#88	pI	P50	@	pC	cC	F2
+	P50	#C	;+R
+L58
+	A53	#1	:+I
+	b
+L57
+	Xoutp	#88	pI	#0	CI	pC	cC	F2
+	A55	Xinp	#88	pI	cC	F1	IC	:I
+	Xoutp	#88	pI	#224	CI	pC	cC	F2
+	Xoutp	#88	pI	#1	CI	pC	cC	F2
+	Xoutp	#88	pI	#19	CI	pC	cC	F2
+	Xoutp	#88	pI	#128	CI	pC	cC	F2
+	A53	#0	:I
+	d
+	j	L59	A53	A56	<I	n
+	A52	Xinp	#88	pI	cC	F1	NC	:N
+	P51	@	A53	RI	#R	*R	'	Xalloc	A52	#1	NI	+N	pN	cR	F1	:R
+	A54	#0	:I
+	d
+	j	L61	A54	NI	A52	<N	n
+	P51	@	A53	RI	#R	*R	'	@	A54	RI	#C	*R	'	Xinp	#88	pI	cC	F1	:C
+L62
+	A54	#1	:+I
+	b
+L61
+	P51	@	A53	RI	#R	*R	'	@	A54	RI	#C	*R	'	#0	CI	:C
+L60
+	A53	#1	:+I
+	b
+L59
+	yI	A56
+}
+
